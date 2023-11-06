@@ -1,0 +1,42 @@
+table{
+  margin:auto;
+}
+table,td{
+  font-family: sans-serif;
+  width:60%;
+    border: 1px solid black;
+  border-color: blue;
+  font-size: medium;
+  text-align: center;
+  padding: 9px;
+  padding-top: 6px;
+  border-collapse: collapse;
+
+}
+th{
+  height: 35px;
+}
+th:nth-child(1)
+{
+  background-color: #d6eeee;
+}
+tr:nth-child(even){
+  background-color: #eaf1f1;
+}
+tr:nth-child(14){
+  background-color: #fff;
+}
+.title{
+  text-align:left;
+}
+th{
+  padding-left: 40px;
+}
+.para{
+  text-align: right;
+}
+P{
+  padding-left: 190px;
+  text-align: left;
+  font-size: 20px;
+}
